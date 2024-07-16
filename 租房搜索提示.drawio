@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T07:17:17.212Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="X6-B8gHuFjyvrv_psutW" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-16T03:03:20.034Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="trt-iN64prM-gqgkSM72" version="24.6.5" type="github">
   <diagram name="第 1 页" id="1B7yUymrB1NeQLyuM9xT">
     <mxGraphModel dx="954" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -731,6 +731,240 @@
         </mxCell>
         <mxCell id="_5CVUmod22jhQ-VDsi2u-224" value="List" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="_5CVUmod22jhQ-VDsi2u-218">
           <mxGeometry x="72" y="55" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-294" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-274">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="3115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-274" value="np_qk_cityId_version" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="169" y="3090" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-295" value="city_name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="373" y="3090" width="77" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-296" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;城市id --&amp;gt; 城市名称&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="237" y="3158" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-301" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-302" target="_5CVUmod22jhQ-VDsi2u-303">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="3315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-311" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-302" target="_5CVUmod22jhQ-VDsi2u-309">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-302" value="d_qk_cityId_type_version" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="3290" width="149" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-307" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-303" target="_5CVUmod22jhQ-VDsi2u-306">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-303" value="regionId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368" y="3260" width="77" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-304" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;城市id_类型 --&amp;gt; 区域id --&amp;gt; 区域实体&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="189" y="3390" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-306" value="region_entiry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="3260" width="77" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-308" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-309" target="_5CVUmod22jhQ-VDsi2u-310">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-309" value="regionId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368" y="3330" width="77" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-310" value="region_entiry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="3330" width="77" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-316" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-317" target="_5CVUmod22jhQ-VDsi2u-323">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-317" value="in_qk_cityId_keyword_type_version" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="3550" width="209" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-320" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;城市id_关键字_类型 --&amp;gt; 区域索引数据 和 权重分数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="3630" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-323" value="index_data&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;score" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368" y="3550" width="202" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-327" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-329" target="_5CVUmod22jhQ-VDsi2u-331">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="3775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-328" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-329" target="_5CVUmod22jhQ-VDsi2u-335">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-329" value="d_qk_cityId_type_version" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="3750" width="149" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-330" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-331" target="_5CVUmod22jhQ-VDsi2u-333">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-331" value="busiCir_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="318" y="3720" width="77" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-332" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;城市id_类型 --&amp;gt; 商圈id --&amp;gt; 商圈实体&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="139" y="3850" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-333" value="busiCir_entiry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="3720" width="77" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-334" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-335" target="_5CVUmod22jhQ-VDsi2u-336">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-335" value="busiCir_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="318" y="3790" width="77" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-336" value="busiCir_entiry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="3790" width="77" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-347" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-348" target="_5CVUmod22jhQ-VDsi2u-350">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-348" value="in_qk_cityId_keyword_type_version" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3980" width="209" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-349" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;城市id_关键字_类型&amp;nbsp;--&amp;gt; 商圈索引数据 和 权重分数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="175" y="4060" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-350" value="index_data&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;score" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="398" y="3980" width="202" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-355" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-357" target="_5CVUmod22jhQ-VDsi2u-359">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="4255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-356" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-357" target="_5CVUmod22jhQ-VDsi2u-363">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-357" value="d_qk_cityId_type_version" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="4230" width="149" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-358" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-359" target="_5CVUmod22jhQ-VDsi2u-361">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-359" value="lineId_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="348" y="4200" width="77" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-360" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;城市id_类型 --&amp;gt; 地铁线id --&amp;gt; 地铁线实体&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="174" y="4330" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-361" value="station_entiry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="4200" width="77" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-362" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-363" target="_5CVUmod22jhQ-VDsi2u-364">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-363" value="lineId_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="348" y="4270" width="77" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-364" value="station_entiry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="4270" width="77" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-375" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-376" target="_5CVUmod22jhQ-VDsi2u-378">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-376" value="in_qk_cityId_keyword_type_version" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="4430" width="209" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-377" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;城市id_关键字_类型&amp;nbsp;--&amp;gt;地铁索引数据 和 权重分数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="4510" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-378" value="index_data&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;score" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="418" y="4430" width="202" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-383" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-385" target="_5CVUmod22jhQ-VDsi2u-387">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="322" y="4775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-384" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-385" target="_5CVUmod22jhQ-VDsi2u-391">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-385" value="d_qk_cityId_type_version" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="107" y="4750" width="149" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-386" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-387" target="_5CVUmod22jhQ-VDsi2u-389">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-387" value="community_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="4720" width="77" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-388" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;城市id_类型 --&amp;gt;小区id --&amp;gt;小区实体&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="171" y="4850" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-389" value="community&lt;div&gt;_entiry&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="457" y="4720" width="77" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-390" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-391" target="_5CVUmod22jhQ-VDsi2u-392">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-391" value="community_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="4790" width="77" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-392" value="community&lt;div&gt;_entiry&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="457" y="4790" width="77" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-393" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-394" target="_5CVUmod22jhQ-VDsi2u-396">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-394" value="in_qk_cityId_keyword_type_version" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="104" y="4990" width="209" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-395" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;城市id_关键字_类型&amp;nbsp;--&amp;gt;小区地址索引数据 和 权重分数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="144" y="5070" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-396" value="index_data&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;score" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="382" y="4990" width="202" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-397" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-399" target="_5CVUmod22jhQ-VDsi2u-401">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="5245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-398" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-399" target="_5CVUmod22jhQ-VDsi2u-405">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-399" value="d_qk_cityId_type_version" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="5220" width="149" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-400" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-401" target="_5CVUmod22jhQ-VDsi2u-403">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-401" value="school_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="318" y="5190" width="77" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-402" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;城市id_类型 --&amp;gt;学校id --&amp;gt;学校实体&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="164" y="5320" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-403" value="&lt;div&gt;school_entiry&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="5190" width="77" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-404" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-405" target="_5CVUmod22jhQ-VDsi2u-406">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-405" value="school_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="318" y="5260" width="77" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-406" value="&lt;div&gt;school_entiry&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="5260" width="77" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-407" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_5CVUmod22jhQ-VDsi2u-408" target="_5CVUmod22jhQ-VDsi2u-410">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-408" value="in_qk_cityId_keyword_type_version" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="5430" width="209" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-409" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;城市id_关键字_类型&amp;nbsp;--&amp;gt;学校索引数据 和 权重分数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="5510" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_5CVUmod22jhQ-VDsi2u-410" value="index_data&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;score" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="388" y="5430" width="202" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
